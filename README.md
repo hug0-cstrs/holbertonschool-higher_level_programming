@@ -11,4 +11,4 @@ Module of **High-level programming** and **Python**, carried out during my **Ful
 All of the following folders are projects done during the studies:
 | **Project name** | **Description** |
 |:--------|:-----------:|
-| [`python-hello_world`](https://github.com/hug0-cstrs/holbertonschool-higher_level_programming/tree/master/python-python-hello_world) | It aims to learn about variables, basics commands (print) and handle strings with **Python** |
+| [`python-hello_world`](https://github.com/hug0-cstrs/holbertonschool-higher_level_programming/tree/main/python-hello_world) | It aims to learn about variables, basics commands (print) and handle strings with **Python** |
