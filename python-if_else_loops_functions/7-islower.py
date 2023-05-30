@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
 def islower(c):
-    if ord(c) >= 65 and ord(c) < 91:
-        return (False)
-    return (True)
+    if ord(c) >= 97 and ord(c) <= 122:
+        return (True)
+    return (False)
