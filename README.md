@@ -12,3 +12,5 @@ All of the following folders are projects done during the studies:
 | **Project name** | **Description** |
 |:--------|:-----------:|
 | [`python-hello_world`](https://github.com/hug0-cstrs/holbertonschool-higher_level_programming/tree/main/python-hello_world) | It aims to learn about variables, basics commands (print) and handle strings with **Python** |
+| [`python-if_else_loops_functions`](https://github.com/hug0-cstrs/holbertonschool-higher_level_programming/tree/main/python-if_else_loops_functions) | It aims to learn about if/else statements, loops, range and functions in **Python** |
+| [`python-import_modules`](https://github.com/hug0-cstrs/holbertonschool-higher_level_programming/tree/main/python-import_modules) | It aims to learn how to import functions, how to create modules and how to use command line arguments in **Python** |
