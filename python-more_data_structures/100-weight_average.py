@@ -10,7 +10,7 @@ def weight_average(my_list=[]):
         sum_product += score * weight
         sum_weights += weight
 
-    if sum_weights == 0:  # Check if the sum of weights is zero to avoid division by zero
+    if sum_weights == 0:  # Check if sum_weights == 0 to avoid division by zero
         return 0
 
     return sum_product / sum_weights
