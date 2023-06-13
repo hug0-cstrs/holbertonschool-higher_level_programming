@@ -18,4 +18,4 @@ class Square:
 
     def area(self):
         """This is a public instance method"""
-        retrn self.__size ** 2
+        return self.__size * self.__size
