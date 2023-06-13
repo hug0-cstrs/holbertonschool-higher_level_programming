@@ -16,7 +16,14 @@ Now use it
     	7
     	>>> add_integer(4)
     	102
+	>>> add_integer(-4, -4)
+	8
     	>>> add_integer('1', 2)
     	Traceback (most recent call last):
-        ...
+    	TypeError: a must be an integer
+	>>> add_integer(1, '2')
+    	Traceback (most recent call last):
+    	TypeError: b must be an integer
+	>>> add_integer("hola", "mundo")
+    	Traceback (most recent call last):
     	TypeError: a must be an integer
