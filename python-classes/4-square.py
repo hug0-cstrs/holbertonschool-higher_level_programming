@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""A module with a simple Square class"""
+
+
 class Square:
     """ A class that defines a square by its size
     """
@@ -14,7 +17,7 @@ class Square:
 
     def area(self):
         """ Method that returns the square are of the object """
-        return self.__size * self.__size
+        return self.__size ** 2
 
     @property
     def size(self):
