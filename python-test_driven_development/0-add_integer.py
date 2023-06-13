@@ -1,9 +1,15 @@
 #!/usr/bin/python3
+"""
+This module is composed by a function that adds two numbers
+"""
+
 
 def add_integer(a, b=98):
-    '''function that add 2 integers'''
-    if type(a) is int or type(a) is float:
-        if type(b) is int or type(b) is float:
+    """This function adds two integers
+    Args: two integers
+    Return: integer"""
+    if (type(a) is int or type(a) is float):
+        if (type(b) is int or type(b) is float):
             return int(a) + int(b)
         else:
             raise TypeError("b must be an integer")
