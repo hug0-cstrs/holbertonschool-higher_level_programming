@@ -18,6 +18,8 @@ Now use it
     	102
 	>>> add_integer(-4, -4)
 	8
+	>>> add_integer(4, 0)
+	4
     	>>> add_integer('1', 2)
     	Traceback (most recent call last):
     	TypeError: a must be an integer
