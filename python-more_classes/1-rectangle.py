@@ -7,9 +7,15 @@ This module provides a simple rectangle class.
 
 
 class Rectangle:
-    """"""
+    """ Class that defines a rectangle """
+
     def __init__(self, width=0, height=0):
-        """This is the __init__ method"""
+        """ Method that initializes the instance
+
+        Args:
+            width: width of the rectangle
+            height: height of the rectangle
+        """
         self.width = width
         self.height = height
 
