@@ -1,15 +1,14 @@
 #!/usr/bin/python3
-
 """
-This is the "Print Square" module.
-
-The Print Square module prints a square using "#".
-The argument supplied should determine the width/height of square.
+function that prints a square in #
+Args: size of the square - integer
+Return: square printed
 """
 
 
 def print_square(size):
-    """Print a perfect square given a valid int or float argument.
+    """
+    function that prints a square in #
     """
     if type(size) is not int:
         raise TypeError("size must be an integer")

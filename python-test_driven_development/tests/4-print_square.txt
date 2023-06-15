@@ -20,27 +20,22 @@ Now use it:
 
     >>> print_square("hola")
     Traceback (most recent call last):
-	...
     TypeError: size must be an integer
 
     >>> print_square(-2)
     Traceback (most recent call last):
-    	...
     ValueError: size must be >= 0
 
     >>> print_square(5.3)
     Traceback (most recent call last):
-        ...
     TypeError: size must be an integer
 
     >>> print_square(-2.5)
     Traceback (most recent call last):
-        ...
     TypeError: size must be an integer
 
     >>> print_square(0)
     
     >>> print_square(None)
     Traceback (most recent call last):
-        ...
     TypeError: size must be an integer
