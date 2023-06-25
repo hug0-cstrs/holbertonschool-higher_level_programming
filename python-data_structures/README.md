@@ -9,7 +9,10 @@ Project done during **Full Stack Software Engineering studies** at **Holberton S
 * Python Scripts are written with Python 3.10.6
 * Tested on Ubuntu 20.04 LTS
 
-## Files
+## How to run :gear:
+`python3 <filename>`
+
+## Files :scroll:
 | **Filename** | **Description** |
 |:--------|:-----------:|
 | `0-print_list_integer.py` | Function that prints all integers of a list |
