@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """A module with a Rectangle Class"""
-from models.base import Base
+from base import Base
 
 
 class Rectangle(Base):
@@ -86,3 +86,11 @@ class Rectangle(Base):
         of the Rectangle instance
         """
         return self.width * self.height
+
+    def display(self):
+        """Display a Rectangle"""
+        rectangle = "\n" * self.y
+        for i in range(self.height):
+            rectangle += (" " * self.x)
+            rectangle += ("#" * self.width) + "\n"
+        print(rectangle, end="")
