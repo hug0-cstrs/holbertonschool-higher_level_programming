@@ -35,7 +35,7 @@ class Rectangle(Base):
         """Gets the height of the Rectangle"""
         return self.__height
 
-    @width.setter
+    @height.setter
     def height(self, value):
         """Sets the height of the Rectangle"""
         self.__height = value
@@ -45,7 +45,7 @@ class Rectangle(Base):
         """Gets the height of the Rectangle"""
         return self.__x
 
-    @width.setter
+    @x.setter
     def x(self, value):
         """Sets the height of the Rectangle"""
         self.__x = value
@@ -55,7 +55,19 @@ class Rectangle(Base):
         """Gets the height of the Rectangle"""
         return self.__y
 
-    @width.setter
+    @y.setter
     def y(self, value):
         """Sets the height of the Rectangle"""
         self.__y = value
+
+
+if __name__ == "__main__":
+
+    r1 = Rectangle(10, 2)
+    print(r1.id)
+
+    r2 = Rectangle(2, 10)
+    print(r2.id)
+
+    r3 = Rectangle(10, 2, 0, 0, 12)
+    print(r3.id)
