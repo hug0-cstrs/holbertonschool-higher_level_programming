@@ -4,7 +4,9 @@ from models.base import Base
 
 
 class Rectangle(Base):
-    """A class Rectangle that inherits from Base"""
+    """A Rectangle class that inherits from Base class.
+    """
+
     def __init__(self, width, height, x=0, y=0, id=None):
         """A constructor method for the Rectangle class
 
@@ -18,7 +20,7 @@ class Rectangle(Base):
         self.width = width
         self.height = height
         self.x = x
-        self.x = y
+        self.y = y
 
     @property
     def width(self):
