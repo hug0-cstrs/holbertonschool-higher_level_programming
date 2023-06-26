@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """A module with a Rectangle Class"""
-from base import Base
+from models.base import Base
 
 
 class Rectangle(Base):
@@ -96,6 +96,9 @@ class Rectangle(Base):
         print(rectangle, end='')
 
     def __str__(self) -> str:
+        """
+        __str__ method
+        """
         return "[Rectangle] ({}) {}/{} - {}/{}".format(self.id,
                                                        self.__x, self.__y,
                                                        self.__width,
