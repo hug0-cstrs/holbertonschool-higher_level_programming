@@ -133,3 +133,19 @@ class Rectangle(Base):
                 elif a == 4:
                     self.y = arg
                 a += 1
+
+        elif kwargs and len(kwargs) != 0:
+            for cle, value in kwargs.items():
+                if cle == "id":
+                    if value is None:
+                        self.__init__(self.width, self.height, self.x, self.y)
+                    else:
+                        self.id = value
+                elif cle == "width":
+                    self.width = value
+                elif cle == "height":
+                    self.height = value
+                elif cle == "x":
+                    self.x = value
+                elif cle == "y":
+                    self.y = value
