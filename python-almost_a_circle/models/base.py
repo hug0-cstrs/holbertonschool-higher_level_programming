@@ -48,8 +48,8 @@ class Base:
             for i in list_objs:
                 my_dict = i.to_dictionary()
                 empty_list.append(my_dict)
-            with open(filename, mode='w', encoding="utf-8") as jsonfile:
+            with open(filename, 'w') as jsonfile:
                 jsonfile.write(cls.to_json_string(empty_list))
         else:
-            with open(filename, mode='w', encoding="utf-8") as jsonfile:
+            with open(filename, 'w') as jsonfile:
                 jsonfile.write(cls.to_json_string(list_objs))
