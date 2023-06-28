@@ -42,14 +42,13 @@ class Base:
         """Class method that writes the JSON string representation of
         list_objs to a file
         """
-        if list_objs is not None and len(list_objs) > 0:
-            empty_list = []
-            filename = "{}.json".format(cls.__name__)
-            for i in list_objs:
-                my_dict = i.to_dictionary()
-                empty_list.append(my_dict)
-            with open(filename, 'w') as jsonfile:
-                jsonfile.write(cls.to_json_string(empty_list))
-        else:
-            with open(filename, 'w') as jsonfile:
-                jsonfile.write("[]")
+        if list_objs is None:
+            list_objs = []
+
+        my_dict = []
+        for obj in list_objs:
+            my_dict.append(obj.to_dictionary())
+        obj = cls.to_json_string(my_dict)
+        filename = cls.__name__ + ".json"
+        with open(filename, "w") as jsonfile:
+            jsonfile.write(obj)
