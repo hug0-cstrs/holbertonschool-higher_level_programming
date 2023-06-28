@@ -69,9 +69,9 @@ class Base:
         with all attributes already set
         """
         if cls.__name__ == "Rectangle":
-            dummy = (2, 2)
+            dummy = cls(2, 2)
         if cls.__name__ == "Square":
-            dummy = (7)
+            dummy = cls(7)
 
         dummy.update(**dictionary)
         return dummy
