@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+"""Defines a base class"""
 import os
 import unittest
 from models.base import Base
