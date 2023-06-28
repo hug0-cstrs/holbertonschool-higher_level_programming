@@ -52,4 +52,4 @@ class Base:
                 jsonfile.write(cls.to_json_string(empty_list))
         else:
             with open(filename, 'w') as jsonfile:
-                jsonfile.write(cls.to_json_string(list_objs))
+                jsonfile.write("[]")
