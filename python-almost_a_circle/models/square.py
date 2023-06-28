@@ -47,9 +47,10 @@ class Square(Rectangle):
             a = 0
             for arg in args:
                 if a == 0:
-                    self.__init__(self.size, self.x, self.y)
-                else:
-                    self.id = arg
+                    if arg is None:
+                        self.__init__(self.size, self.x, self.y)
+                    else:
+                        self.id = arg
                 if a == 1:
                     self.size = arg
                 elif a == 2:
@@ -61,9 +62,10 @@ class Square(Rectangle):
         elif kwargs and len(kwargs) != 0:
             for cle, value in kwargs.items():
                 if cle == "id":
-                    self.__init__(self.size, self.x, self.y)
-                else:
-                    self.id = value
+                    if value is None:
+                        self.__init__(self.size, self.x, self.y)
+                    else:
+                        self.id = value
                 if cle == "size":
                     self.size = value
                 elif cle == "x":
